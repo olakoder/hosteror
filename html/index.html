@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/base.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <img src="../images/logo.png" alt="logo" class="logo">
+            <a href="#" class="brand-name">Jagtech</a>
+            <a class="hiring" href="#" class="hiring">Jagtech is hiring!</a>
+            <img src="../images/hamburger2.png" alt="hamburger" class="mobile-menu" id="mobile-menu"> 
+
+            <nav>
+                <img src="../images/exit.png" alt="exit" class="exit" id="mobile-menu-exit">
+                <ul class="primary-nav">
+                    <li><a href="#">Plans</a></li>
+                    <li><a href="#">Find Domain</a></li>
+                    <li><a href="#">Why Jagtech</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li><a href="#">Sign in</a></li>
+                    <li class="join"><a href="#">Join Waitlist</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section class="title">
+        <div class="container">
+            <img src="../images/realpng.png" alt="" class="title-image">
+            <div class="left-col">
+                <h1>Host your website in less than 5 minutes.</h1>
+                <p class="paragraph-title">With Jagtech, get your website up and running in no less than 5 minutes with the most competitive pricing packages available online</p>
+                <input type="text"  placeholder="Enter e-mail address" class="email">
+                <input class="inline-btn" style="background-color: var(--primary-color-blue);" type="button" value="Join Waistlist">
+                <p class="title-description">No spam, ever. Unsubscribe anytime.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="footer-nav">
+                <ul class="nav-footer">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+        
+                <ul class="nav-footer-two">
+                    <img src="../images/jagoal-image.jpg" alt="specialist" class="specialist">
+                    <p class="spacialist-paragraph">Have any questions? <br><span class="special-bold">Talk to a specialist.</span></p>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script>
+    const mobileBtn = document.getElementById('mobile-menu')
+        nav = document.querySelector('nav')
+        mobileBtnExit = document.getElementById('mobile-menu-exit');
+
+    mobileBtn.addEventListener('click', () => {
+        nav.classList.add('menu-btn');
+    })
+
+    mobileBtnExit.addEventListener('click', () => {
+        nav.classList.remove('menu-btn');
+    })
+
+    // alert("whats your name");
+    var name = "Olatunji"
+    var surname = "Oyebanji"
+
+    console.log(name);
+    console.log("My name is " + surname + " " + name)
+
+
+    let data = {
+    surname: "Oyebanji",
+    name: "Yusuf",
+    level: "ND 2",
+    year: 2022
+}
+
+
+console.log(data)
+
+console.log(` This is the data we derived ${data.surname} ${data.name}`)
+
+data.surname = "Alayande"
+data.name = "Kabiru"
+
+console.log(` This is the data we derived ${data.surname} ${data.name}`)
+
+console.log(`This is the year ${data.year}`)
+data.year = data.year + 1
+console.log(`This is the year ${data.year}`)
+
+let red = {
+    surname: "Oyebanji",
+    name: "Yusuf",
+    level: "ND 2",
+    year: 2022
+}
+
+let blue = {
+    surname: "Oyebanji",
+    name: "Yusuf",
+    level: "ND 2",
+    year: 2022
+}
+
+
+
+
+
+
+</script>
+
+</html>

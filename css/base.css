@@ -1,0 +1,37 @@
+:root {
+    --primary-color: rgba(197, 149, 149, 0.301);
+    --primary-color-light: rgb(175, 170, 170);
+    --primary-color-blue: rgb(76, 76, 250);
+    --primary-gradient-light: rgba(172, 49, 49, 0.986);
+    --primary-gradient-dark: rgba(221, 4, 4, 0.986);
+}
+
+.logo {
+    width: 4em;
+    height: 4em;
+    margin-right: 0.2em;
+}
+
+.mobile-menu, .exit {
+    width: 2.5em;
+    height: 2em;
+    cursor: pointer;
+}
+
+.exit {
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+}
+
+.title-image {
+    width: 70%;
+    order: 1;
+}
+
+.nav-footer-two img {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+}
+

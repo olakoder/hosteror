@@ -1,0 +1,160 @@
+/* ****** TABLET ****** */
+@media only screen and (min-width: 690px){
+
+    
+    h1 {
+        font-size: 3.5em;
+    }
+
+    .navbar .container {
+        padding: 1em ;
+        display: flex;
+        align-items: center;
+    }
+
+    /* REMIND ME */
+    .hiring {
+        padding: 1em 2em;
+        width: 13em;
+        /* font-size: 2em; */
+    }
+
+    .title .container {
+        text-align: left;
+    }
+    
+    .email {
+        /* padding: 1em; */
+        width: 25.2em;
+        display: inline-block;
+        background-color: rgb(243, 235, 235);
+    }
+
+    .inline-btn {
+        width: 10em;
+        display: inline-block;
+        background-color: rgb(243, 235, 235);
+        margin-left: 0.5em;
+    }
+
+    .footer .footer-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-footer {
+        margin-bottom: -1em;
+    }
+}
+
+
+/* ****** DESTOP ****** */
+@media only screen and (min-width: 1000px) {
+    section {
+        padding: 1em 4em;
+    }
+
+    h1 {
+        font-size: 3.5em;
+        text-align: left;
+        line-height: 1.2;
+    }
+    /* readjust */
+
+    
+    .mobile-menu, .exit {
+        display: none;
+    }
+
+    .navbar nav {
+        position: unset;
+        display: flex;
+        background: none;
+        height: 0;
+        width: 100%;
+    }
+
+    .navbar nav ul {
+        display: flex;
+        /* margin: 0; */
+        margin-top: -0.7em;
+    }
+
+    .navbar nav ul a{
+        padding-right: 2em;
+        font-size: 2em;
+    }
+    
+    .navbar .primary-nav {
+        margin-right: auto;
+        margin-left: 13em;  
+    }
+
+    .hiring {
+        padding: 1em 2em;
+        width: 17em;
+        font-size: 5em;
+    }
+
+
+    /* readjust */
+
+
+    .navbar .container {
+        padding: 1em 4.5em;
+        /* display: flex;
+        align-items: center; */
+    }
+    
+    /* remind me */
+    .navbar a {
+        text-decoration: none;  
+        
+        
+    }
+    
+    .hiring, .navbar nav {
+        font-family: Lucida Sans;
+        font-size: 0.5em;
+    }
+    
+    .brand-name {
+        font-weight: bold;
+        font-size: 1em;
+        color: black;
+
+     /* remind me */
+
+    }
+
+    .title .container {
+        margin-top: 3em;
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+    }
+
+    .left-col  {
+        flex: 0 0 45%;
+    }
+
+    /*delete later */
+    
+    .email {
+        width: 18em;
+        
+    }
+
+    .inline-btn {
+        padding: 1.5em 0;
+        width: 8em;
+        display: inline-block;
+    }
+
+    .title-image {
+        width: 30%;
+        /* margin-right: 6em; */
+    }
+
+}
